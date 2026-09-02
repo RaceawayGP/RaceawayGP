@@ -1,0 +1,3 @@
+import type{Metadata}from"next";import{PageHero}from"@/components/ui";
+export const metadata:Metadata={title:"關於我們｜RaceAway",description:"了解 RaceAway 如何為香港及台灣車迷整理門票、座位與 Race Trip 資訊。"};
+export default function Page(){return <><PageHero eyebrow="About" title="令第一次 Race Trip，少啲估、多啲期待。" subtitle="獨立、實用、為亞洲 motorsport fans 而設。"/><section className="section"><article className="container prose"><p>RaceAway 係一個為亞洲 motorsport fans 而設嘅獨立觀賽指南。</p><p>我哋相信第一次去現場睇賽車，最難嘅唔係搵到一張飛，而係判斷邊張飛適合自己、應該喺邊度買，同埋成個旅程點樣安排。</p><p>RaceAway 希望將複雜嘅門票、座位、交通及 Race Trip 資訊，整理成簡單、實用、容易比較嘅內容。</p><p><b style={{color:"white"}}>目前主要服務香港及台灣繁體中文讀者。</b></p></article></section></>}

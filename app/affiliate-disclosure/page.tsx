@@ -1,0 +1,3 @@
+import type{Metadata}from"next";import{PageHero}from"@/components/ui";
+export const metadata:Metadata={title:"Affiliate Disclosure｜聯盟行銷聲明｜RaceAway",description:"RaceAway 聯盟行銷連結與獨立編輯原則說明。"};
+export default function Page(){return <><PageHero eyebrow="Transparency" title="Affiliate Disclosure｜聯盟行銷聲明" subtitle="你應該清楚知道 RaceAway 可能如何從部分連結獲得收入。"/><section className="section"><article className="container prose"><p>RaceAway 部分內容可能包含聯盟行銷連結。</p><p>當你透過相關連結前往第三方平台並完成符合條件的交易，RaceAway 可能會獲得佣金。</p><p>一般情況下，使用這些連結不會令你支付更高價格。</p><p>聯盟合作不應影響 RaceAway 對產品、平台或票種的獨立評價。我們會盡量清楚標示合作／聯盟連結，並鼓勵讀者在購買前自行確認第三方平台最新價格、供應情況及條款。</p></article></section></>}

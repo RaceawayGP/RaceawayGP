@@ -1,0 +1,2 @@
+const rows=[["Walkabout / 一般區域","Medium","Varied","Low","High","Low"],["Grandstand","High","High","Medium","High","Medium"],["Premium options","Varied","High","High","Medium","High"]];
+export default function SeatComparisonTable(){return <div className="table-wrap"><table><thead><tr>{["座位類型","Racing action","View","Comfort","Atmosphere","Budget level"].map(x=><th key={x}>{x}</th>)}</tr></thead><tbody>{rows.map(r=><tr key={r[0]}>{r.map(x=><td key={x}>{x}</td>)}</tr>)}</tbody></table></div>}

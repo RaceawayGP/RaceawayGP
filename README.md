@@ -27,7 +27,7 @@ npm run build
 
 ## Content insertion points
 
-- Social URLs: `components/SocialLinks.tsx` (replace each `href="#"`).
+- Official Instagram, Threads and Facebook URLs: `components/SocialLinks.tsx`.
 - Klook, KKday and Trip.com affiliate URLs: `app/singapore-gp/tickets/page.tsx`; set each URL and remove `disabled` from its `AffiliateButton`.
 - Verified 2026 race dates/event information: `app/singapore-gp/page.tsx`, at the marked TODO.
 - Analytics: `lib/analytics.ts` and the TODO in `components/AffiliateButton.tsx`.
